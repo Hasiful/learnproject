@@ -1,0 +1,56 @@
+/* 
+===============================
+    min-width 540
+===============================
+*/
+@media(min-width: 540px){
+    .course_section_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* 
+===============================
+    min-width 768
+===============================
+*/
+@media(min-width: 768px){
+    .header_top {
+        display: block;
+    }
+    .section_padding{
+        padding: 80px 0px;
+    }
+    .course_section_wrapper{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* 
+===============================
+    min-width 1024
+===============================
+*/
+@media(min-width: 1024px){
+    .header_nav {
+        display: block;
+    }
+    .section_padding{
+        padding: 100px 0px;
+    }
+    .header_toggler{
+        display: none;
+    }
+}
+
+
+
+
+/* 
+===============================
+    min-width 1240
+===============================
+*/
+@media(min-width: 1240px){}
